@@ -1,0 +1,61 @@
+一開始先簡單說明整個business process 怎麼運作的，這應該是很general的一個流程
+
+沒有什麼適合的圖，可以自己做一下，這個章節我希望可以再兩三分鐘內講完
+
+# PeopleSoft Recruiting Solutions: Business Process Overview
+
+## Slide 1: Business Process Flow
+- **Create Job Openings**:
+  - From scratch, clone, or Position Management.
+  - Configurable approvals via Approval Framework.
+- **Applicant Registration**:
+  - External: Register via Candidate Gateway (9.2 enhancements: password controls, email).
+  - Manual entry in TAM for hard-copy resumes.
+- **Post Job Openings**:
+  - Post to Candidate Gateway or region-specific sites.
+  - Configurable for branding/location.
+
+## Slide 2: Business Process Flow (Cont.)
+- **Apply for Jobs**:
+  - Internal: Self-service, auto-populates Workforce Admin data.
+  - External: Register, search, apply.
+- **Screen Applicants**:
+  - Pre-screening: Yes/no questions (e.g., eligibility, certifications).
+  - Online screening: Evaluates application fields.
+  - Batch screening: Automated requirement matching.
+  - Manual screening: Recruiter resume review.
+- **Route Applicants**:
+  - Send qualified applicants to hiring managers for review.
+
+## Slide 3: Business Process Flow (Cont.)
+- **Interview Applicants**:
+  - Schedule with Outlook integration.
+  - Interviewers submit evaluation forms.
+- **Prepare Offers**:
+  - Configurable approvals.
+  - Post to Candidate Gateway (since 9.1) for acceptance/documents.
+- **Prepare for Hire**:
+  - Transfer data to Workforce Admin (Manage Hires).
+- **Hire Applicants**:
+  - Create person ID, update job status, and other applicants’ dispositions.
+
+## Slide 4: Additional Processes
+- Recruiting Home Dashboard: Configurable pagelets for recruiters.
+- Job Opening Management: View applicants by job.
+- Applicant Management: View applicant’s applied jobs.
+- Employee Referral Management: Track referrals, integrate with payroll.
+- Resume Management: Search resumes.
+
+## Slide 5: Integrations
+- **Core**: TAM ↔ HR (Workforce Admin) for job/applicant data.
+- **Optional (via Integration Broker)**:
+  - Background screening vendors.
+  - Job boards (e.g., LinkedIn, CareerBuilder).
+  - Services Procurement for contingent workers.
+  - Resume extractors for applicant data parsing.
+
+## Slide 6: Roles and Configuration
+- **Implementer**: Sets up HCM/recruiting tables (approvals, screening, postings).
+- **Recruiter**: Manages job openings, screening, routing, offers in TAM.
+- **Hiring Manager**: Reviews applicants, selects interviewees, provides recommendations.
+- **Resources**: Documentation in appendices, detailed in later lessons.
