@@ -1,1 +1,112 @@
+Lesson 8: Creating Job Openings
+重點著重在
+1. 建立職缺的方式
+1.1 手動建立職缺
+1.2 透過現有職缺建立
+1.3 透過既有職位建立
+2. 職缺的審核與發布
 
+
+以下為第一段影片
+## 建立職缺的方式
+
+- **手動建立 (Manual)**
+- 必須輸入所有範本中要求的資料：職缺詳細資訊、需求條件、篩選設定、張貼資訊、招募團隊。
+- 適合首次建立完整職缺。之後可透過複製方式快速新增相似職缺。
+
+- **複製 (Clone)**
+- 由現有職缺複製，節省時間。
+
+- **從職位建立 (From Position)**
+- 系統根據既有職位自動產生職缺。
+- 不常使用，但功能可用。
+
+## 建立職缺流程
+1. **輸入主要職缺資訊 (Primary Information)**
+   - 決定使用哪個招募範本 (依分段值，如 Job Family)
+   - 選擇 Business Unit → 過濾部門、職位、地點
+   - 帶入職務編碼、部門、招募地點 (來自 Position & HR Location)
+   - 選擇是否帶入 Profile (Job / Person)
+2. **檢視 & 選擇 Profile**
+   - 決定是否使用複合 Profile (Combined Profile Info)
+   - 確認職缺需求 (技能、能力、語言等)
+3. **輸入職缺詳細資訊**
+   - 基本資訊 (必填)
+   - Staffing & Salary (選填)
+   - 多職位/多職務設定 (若啟用)
+4. **輸入其他需求**
+   - 資格條件、篩選條件 (可分頁或合併)
+   - 張貼資訊 (若使用 Candidate Gateway)
+   - 招募團隊 (至少要有 Recruiter & Hiring Manager)
+5. **提交職缺**
+   - 有啟用審核 → Save & Submit
+   - 未啟用審核 → Save & Open
+   - 可隨時 Save as Draft
+
+
+以下為第二段影片
+## 建立職缺的流程
+- 需求設定 → Screening → Job Posting → Hiring Team → Approvals
+
+- **需求設定 (Requirements)**
+
+- 可指定最高學歷與年資要求。
+- 職能 (Competencies) 由 Profile 帶入，需設定「評估方式」來定義應徵者的能力來源（自評、主管評估、課程完成等）。
+- 語言能力可新增多項，並指定熟練度。
+
+- **Screening 問題與層級**
+
+- 問題可由「題庫 (Set)」匯入，包含 Ethics、Health 等。
+- 問題順序可固定或隨機。
+- 開放式問題需設定「Evaluator」來進行匿名評分，避免主觀偏見。
+
+- **Screening 分層級：**
+
+- Pre-screen：僅能用 Screening Questions。
+- Final：可使用更廣泛的條件（學歷、年資、語言、職能）。
+- 可設定通過率或累積分數，例如要求 100% 正確或至少 75%。
+
+- **Job Posting**
+
+- 建立張貼描述，類型可包括「申請方式、資格、職責」。
+- 設定顯示對象（內部/外部）。
+- 選擇張貼管道（Candidate Gateway、外部網站、第三方平台）。
+- 預覽功能可檢視內外部顯示效果，支援文字格式化與圖片。
+
+- **Hiring Team**
+
+- 可加入 Recruiter、Hiring Manager、Interviewers。
+- 設定 Primary 負責人，用於報表與通知。
+- Interviewers 預設會被加進 Interview Schedule，但可隨時增刪。
+
+- **Approvals**
+
+- 預設第一層審批人是 Hiring Manager 的主管。
+- Recruiter 也具備審批權限。
+- 可加入 Ad hoc Approvers（如財務部門），靈活調整流程。
+
+以下為第三段影片
+
+手動建立職缺剛剛在第二段影片就有介紹了，所以這一段影片只有講了其他兩種建立的方式
+
+- 複製（Clone）既有職缺
+
+- 從現有職缺頁面選擇「Clone」功能 >> 感覺可以截圖一下？
+- 可修改職稱、數量（最多三位數，同時建立多筆）
+- 新建職缺狀態預設為 Draft（若有啟用審核流程）
+- 不會完整複製以下資料：
+    - 預計起始日、填補日
+    - Job Posting 相關設定（需重新填寫）
+    - 應徵紀錄（Applicants 不會被複製）
+- 會複製的內容：
+    - 職缺描述、資格條件
+    - 招募團隊（需確認主要招募人/主管是否有效）
+    - Notes & Attachments（日期更新為新職缺的日期）
+
+- 從職位（Position）批次產生職缺
+    - 路徑：Recruiting → Administration → Create Job Openings from Positions
+    - 判斷是否允許重複職缺（通常不允許）
+    - 系統依據 Position 的 Max Headcount vs. Current Headcount 產生對應數量的職缺草稿
+    - 產生後僅帶入 Job Details，其他欄位（資格、招募團隊、Job Posting 等）需人工補充
+
+第四段第五段的影片都是帶著做activity，可以等到做簡報的時候再來看＋跟著做
